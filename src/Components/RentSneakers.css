@@ -3,3 +3,57 @@
     height: 780px;
     background-color: rebeccapurple;
 }
+
+.rent_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.shop_kids, .shop_men, .shop_women{
+    width: calc(100% / 3);
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.shop_kids{
+    background-color: gray;
+}
+
+.shop p {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.shop:hover p {
+    opacity: 1; 
+    background: linear-gradient(to bottom, transparent, #e9bebe);
+}
+
+
+
+.rent_image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+@media (max-width:800px) {
+    .rent_main{
+        flex-direction: column;
+    }
+
+    .shop_kids, .shop_women, .shop_men{
+        width: 100%;
+        height: 100%;
+    }
+}
