@@ -30,16 +30,15 @@
   }
 
   .scroll_text1{
-    margin-left: 50px;
-    font-size: 80px;
-   
+    font-size: 90px;
   }
+
   .scroll_section_heading{
     font-size: 50px;
   }
 
   .scroll_section_subheading{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -51,21 +50,30 @@
   @media (max-width: 800px) {
    
     .scroll_text1 {
-        font-size: 40px; 
+        font-size: 75px; 
     }
 
     .scroll_section_heading {
-        font-size: 4vw; 
+        font-size: 30px; 
     }
 
     .scroll_section_subheading {
-        font-size: 2vw; 
+        font-size: 25px; 
     }
 
     .howitworks_image{
       width: 200px;
       height: 200px;
     }
+
+    .scroll_section_heading, .howitworks_image, .scroll_section_subheading{
+      margin-left: 120px;
+    }
+
+    .scroll_section_inner{
+      height: 100vh;
+      width: 733vw;}
+
 
     
 }

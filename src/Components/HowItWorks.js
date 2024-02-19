@@ -32,7 +32,7 @@ export default function HowItWorks(){
       scrollTrigger: {
         trigger: triggerRef.current,
         start: "top to",
-        end: "3000px",
+        end: "3100px",
         scrub: 0.6,
         pin: true
       }
@@ -49,7 +49,7 @@ export default function HowItWorks(){
         
           <div ref={sectionRef} className='scroll_section_inner'>
             <div className='scroll_section'>
-                <p className="scroll_text1">how does rentyourkicks work?</p>
+                <p className="scroll_text1">how does rentyourkicks <br/>work?</p>
             </div>
 
             <div className="scroll_section">
