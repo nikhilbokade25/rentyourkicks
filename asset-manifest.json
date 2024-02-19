@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rentyourkicks/static/css/main.d0d66740.css",
-    "main.js": "/rentyourkicks/static/js/main.40fdfc0e.js",
+    "main.css": "/rentyourkicks/static/css/main.03a63377.css",
+    "main.js": "/rentyourkicks/static/js/main.8c890cb9.js",
     "static/js/592.8f44d482.chunk.js": "/rentyourkicks/static/js/592.8f44d482.chunk.js",
     "static/media/shopMan.jpg": "/rentyourkicks/static/media/shopMan.3909e31585386b57ff07.jpg",
     "static/media/shopKid.jpg": "/rentyourkicks/static/media/shopKid.fc4029ee9464a6bf72b7.jpg",
@@ -17,12 +17,12 @@
     "static/media/returnProduct.svg": "/rentyourkicks/static/media/returnProduct.15b1d3636bf0254a34cf3a592fa9695c.svg",
     "static/media/delivery.svg": "/rentyourkicks/static/media/delivery.04281572ea1178b47a29910462403200.svg",
     "index.html": "/rentyourkicks/index.html",
-    "main.d0d66740.css.map": "/rentyourkicks/static/css/main.d0d66740.css.map",
-    "main.40fdfc0e.js.map": "/rentyourkicks/static/js/main.40fdfc0e.js.map",
+    "main.03a63377.css.map": "/rentyourkicks/static/css/main.03a63377.css.map",
+    "main.8c890cb9.js.map": "/rentyourkicks/static/js/main.8c890cb9.js.map",
     "592.8f44d482.chunk.js.map": "/rentyourkicks/static/js/592.8f44d482.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0d66740.css",
-    "static/js/main.40fdfc0e.js"
+    "static/css/main.03a63377.css",
+    "static/js/main.8c890cb9.js"
   ]
 }
