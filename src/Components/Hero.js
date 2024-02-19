@@ -20,7 +20,7 @@ export default function Hero(){
                 <div className="hero_image">
                     <div className="hero_image_shadow">
                         <div className="hero_shoe_image">
-                            <img className="hero_img" src={heroShoeImg} alt="floating shoe image"/>
+                            <img className="hero_img" src={heroShoeImg} alt="a floating shoe"/>
                         </div>
 
                         <div className="hero_shadow">

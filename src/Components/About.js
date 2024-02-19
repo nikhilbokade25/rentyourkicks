@@ -7,7 +7,7 @@ export default function About(){
 
             <div className="about_main">
                 <div className="about_image">
-                    <img src={aboutImg} alt="about image" className="about_img"/>
+                    <img src={aboutImg} alt="a frame full of shoes " className="about_img"/>
                 </div>
                 <div className="about_text">
                     <h3>About rentyourkicks</h3>
