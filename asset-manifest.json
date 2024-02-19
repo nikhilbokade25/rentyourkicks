@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/rentyourkicks/static/css/main.d0d66740.css",
+    "main.js": "/rentyourkicks/static/js/main.40fdfc0e.js",
+    "static/js/592.8f44d482.chunk.js": "/rentyourkicks/static/js/592.8f44d482.chunk.js",
+    "static/media/shopMan.jpg": "/rentyourkicks/static/media/shopMan.3909e31585386b57ff07.jpg",
+    "static/media/shopKid.jpg": "/rentyourkicks/static/media/shopKid.fc4029ee9464a6bf72b7.jpg",
+    "static/media/shopWomen.jpg": "/rentyourkicks/static/media/shopWomen.d325ae059b29053a44f0.jpg",
+    "static/media/aboutImg.jpg": "/rentyourkicks/static/media/aboutImg.4e9fbd3c1437a267e982.jpg",
+    "static/media/heroShoeImg.png": "/rentyourkicks/static/media/heroShoeImg.0a8bcd69822abca09f6e.png",
+    "static/media/cleaningImg.svg": "/rentyourkicks/static/media/cleaningImg.540d9605959e40b89920902cb9c5d75c.svg",
+    "static/media/qualityInspection.svg": "/rentyourkicks/static/media/qualityInspection.2fea3e9fad9fa5f4fe6f6056e7dce59e.svg",
+    "static/media/enjoyment.svg": "/rentyourkicks/static/media/enjoyment.45394ad3abdc6e57ad68a842f080995c.svg",
+    "static/media/packagingImg.svg": "/rentyourkicks/static/media/packagingImg.d836de3bc6eec34114f98810d3eb8146.svg",
+    "static/media/orderconfirm.svg": "/rentyourkicks/static/media/orderconfirm.e8be5009e412c0654ceb8bdbcff3cd79.svg",
+    "static/media/shipping.svg": "/rentyourkicks/static/media/shipping.068ae44a3247016e4b36c47c7cf36832.svg",
+    "static/media/returnProduct.svg": "/rentyourkicks/static/media/returnProduct.15b1d3636bf0254a34cf3a592fa9695c.svg",
+    "static/media/delivery.svg": "/rentyourkicks/static/media/delivery.04281572ea1178b47a29910462403200.svg",
+    "index.html": "/rentyourkicks/index.html",
+    "main.d0d66740.css.map": "/rentyourkicks/static/css/main.d0d66740.css.map",
+    "main.40fdfc0e.js.map": "/rentyourkicks/static/js/main.40fdfc0e.js.map",
+    "592.8f44d482.chunk.js.map": "/rentyourkicks/static/js/592.8f44d482.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0d66740.css",
+    "static/js/main.40fdfc0e.js"
+  ]
+}
