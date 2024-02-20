@@ -29,7 +29,6 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .about_text h3{
@@ -52,9 +51,9 @@
     .about_main{
         flex-direction: column;
     }
+
    .about_image,.about_text{
         width: 100%;
-        
     }
 
     .about_img{
@@ -72,5 +71,7 @@
     .about_text h2{
         font-size: 19px;
     }
+
+    
 
 }

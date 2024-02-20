@@ -1,0 +1,105 @@
+.footer_container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.footer_main{
+    width: 96%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    display: flex;
+    font-family: "PT Sans", sans-serif;
+}
+
+.footer_company, .footer_quicklinks,
+.footer_working_hours, .footer_subscription{
+    width: 25%;
+    height: 100%;
+}
+
+.footer_company h2{
+    font-size: 30px;
+}
+.footer_company p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer_quicklinks li{
+    list-style: none;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.footer_quicklinks li:hover{
+    cursor: pointer;
+}
+
+.footer_working_hours,.footer_quicklinks, .footer_subscription{
+    text-align: center;
+}
+
+.footer_working_hours h2{
+    font-size: 25px;
+}
+
+.footer_working_hours p{
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+
+
+.footer_subscription p{
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.footer_subscription input{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.footer_email{
+    width: 78%;
+}
+.footer_btn_submit{
+    width: 85%;
+    background-color: #647daf;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer_btn_submit:hover{
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    .footer_container, .footer_main{
+        flex-direction: column;
+    }
+
+    .footer_company, .footer_quicklinks,
+.footer_working_hours, .footer_subscription{
+    width: 100%;
+    text-align: center;
+}
+
+.footer_container{
+    height: auto;
+}
+
+ .footer_quicklinks,
+.footer_working_hours, .footer_subscription{
+   margin-top: 20px;
+}
+
+
+
+}

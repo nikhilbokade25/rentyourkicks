@@ -51,6 +51,7 @@
    
     .scroll_text1 {
         font-size: 75px; 
+        margin-left: 15px;
     }
 
     .scroll_section_heading {
@@ -67,12 +68,15 @@
     }
 
     .scroll_section_heading, .howitworks_image, .scroll_section_subheading{
-      margin-left: 120px;
+      margin-left: 110px;
     }
 
     .scroll_section_inner{
       height: 100vh;
-      width: 733vw;}
+      width: 733vw;
+    }
+
+    
 
 
     

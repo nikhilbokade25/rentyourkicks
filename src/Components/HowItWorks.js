@@ -95,11 +95,12 @@ export default function HowItWorks(){
             <p className="scroll_section_subheading">The customer enjoys wearing the sneakers for the duration of their rental period</p>
           </div>
 
-          <div className='scroll_section '>
+          <div className='scroll_section last_scroll_section'>
             <p className="scroll_section_heading">Return Process</p>
             <img src={returnProductImg}  alt="customer returning the product and sticking label svg icon" className="howitworks_image"/>
             <p className="scroll_section_subheading">At the end of the rental period, the customer returns the sneakers <br></br> using the provided return packaging and shipping label</p>
           </div>
+          
         </div>
       </div>
     </section>

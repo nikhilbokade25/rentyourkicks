@@ -121,7 +121,6 @@
     .hero_text{
         width: 100%;
         text-align: center;
-        
     }
 
     .hero_text h2{
@@ -138,9 +137,23 @@
     }
 
     .shadow {
-        width: 15vw; /* Adjust width as the shoe image grows */
-        bottom: 10vw; /* Adjust bottom positioning if necessary */
+        width: 15vw; 
+        bottom: 10vw; 
     }
+
+    .hero_text_content{
+        margin-top:-120px;
+    }
+
+    .hero_main{
+        height: auto;
+    }
+
+    .hero_container{
+        height: 620px;
+    }
+
+
 
     
 
