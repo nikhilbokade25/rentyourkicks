@@ -7,36 +7,24 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: "PT Sans",sans-serif;
     font-size: 20px;
-  }
+}
   
-  .logo {
-    order: 1;
-  }
-  
-  .search-icons {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    order: 3;
-  }
-  
-  .search-input {
-    padding: 7px;
-    border-radius: 5px;
-    border: 1px solid black;
-  }
-  
-  .navbar_icon,
-  .navbar_search_icon {
+
+.navbar_icon, .navbar_search_icon {
     width: 25px;
     height: 25px;
-  }
+    margin-left: 15px;
+}
+
+.profile_icon{
+  width: 21px;
+}
   
-  .navbar_search_icon {
+.navbar_search_icon {
     display: none;
-  }
+}
   
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .navbar {
       align-items: flex-start;
     }
@@ -57,5 +45,5 @@
     .navbar_search_icon {
       display: block;
     }
-  }
+}
   

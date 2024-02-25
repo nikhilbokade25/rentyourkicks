@@ -1,10 +1,10 @@
-.sneakerKids_main{
+.sneakerWomen_main{
     width: 100%;
     height: 720px;
     display: flex;
 }
 
-.sneakerKids_banner{
+.sneakerWomen_banner{
     width: 80%;
     height: 600px;
     display: block;
@@ -14,10 +14,9 @@
     border-radius: 20px;
 }
 
-.sneakerKids_banner img{
+.sneakerWomen_banner img{
     width: 100%;
     height: 600px;
     object-fit: cover;
     border-radius: 20px;
 }
-
