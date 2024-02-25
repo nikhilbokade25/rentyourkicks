@@ -1,7 +1,16 @@
+import NavbarShop from "./NavbarShop";
+import "./SneakersForKids.css";
+
 export default function SneakersForKids(){
     return(
         <div className="sneakerKids_container">
-            <h1>SNEAKER FOR KIDS PAGE</h1>
+            <NavbarShop />
+
+            <div className="sneakerKids_main">
+                <div className="sneakerKids_banner">
+                    
+                </div>
+            </div>
         </div>
     );
 }
