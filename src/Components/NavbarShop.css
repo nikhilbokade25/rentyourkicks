@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: "PT Sans",sans-serif;
@@ -20,9 +20,7 @@
   width: 21px;
 }
   
-.navbar_search_icon {
-    display: none;
-}
+
   
 @media screen and (max-width: 768px) {
     .navbar {
@@ -38,12 +36,8 @@
       margin-top: 10px;
     }
   
-    .search-input {
-      display: none;
-    }
+    
   
-    .navbar_search_icon {
-      display: block;
-    }
+    
 }
   
