@@ -16,7 +16,10 @@
     flex-direction: column;
     align-items: center;
     width: 150px; 
-    
+}
+
+.collection_item p{
+    color: black;
 }
 
 .collection_image {

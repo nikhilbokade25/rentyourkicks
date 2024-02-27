@@ -7,6 +7,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import SneakersForKids from './Components/SneakersForKids';
 import SneakerForWomen from "./Components/SneakerForWomen";
 import SneakerForMen from './Components/SneakerForMen';
+import ShopNike from './Components/ShopNike';
+import ShopAdidas from './Components/ShopAdidas';
+import ShopReebok from './Components/ShopReebok';
+import ShopPuma from './Components/ShopPuma';
+import ShopNewBalance from './Components/ShopNewBalance';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +30,26 @@ const router = createBrowserRouter([
     path:"/sneakerForMen",
     element: <SneakerForMen />
   },
+  {
+    path:"/shopNike",
+    element: <ShopNike />
+  },
+  {
+    path:"/shopAdidas",
+    element: <ShopAdidas />
+  },
+  {
+    path:"/shopReebok",
+    element: <ShopReebok />
+  },
+  {
+    path:"/shopPuma",
+    element: <ShopPuma />
+  },
+  {
+    path:"/shopNewBalance",
+    element: <ShopNewBalance />
+  }
 
   
 ])
