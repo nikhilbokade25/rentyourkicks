@@ -43,7 +43,7 @@ export default function HowItWorks(){
     }
   }, [])
     return(
-        <div className="howitworks_container">
+        <div className="howitworks_container" id="howitworks">
             <section className='scroll_section_outer'>
           <div ref={triggerRef}>
         

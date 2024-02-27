@@ -1,10 +1,13 @@
 import "./About.css";
 import aboutImg from "../assets/aboutImg.jpg";
 
-export default function About(){
-    return(
-        <div className="about_container">
 
+export default function About(){
+
+   
+
+    return(
+        <div className="about_container" id="about">
             <div className="about_main">
                 <div className="about_image">
                     <img src={aboutImg} alt="a frame full of shoes " className="about_img"/>

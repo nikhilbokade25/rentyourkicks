@@ -4,11 +4,14 @@ import shopWomenImg from "../assets/shopWomen.jpg";
 import shopMenImg from "../assets/shopMan.jpg";
 import { Link } from "react-router-dom";
 
+
 export default function RentSneakers(){
+
+
     
     return(
         
-        <div className="rent_container">
+        <div className="rent_container" id="rent">
             
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 

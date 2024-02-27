@@ -7,13 +7,17 @@ import HowItWorks from './Components/HowItWorks';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
 
+
+
+
 function App() {
+
   return (
     <div className="App">
 
-      <Navbar />
+      <Navbar/>
       <Hero />
-      <About />
+      <About/>
       <RentSneakers />
       <HowItWorks />
       <ContactUs />

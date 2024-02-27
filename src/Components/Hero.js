@@ -4,7 +4,7 @@ import heroShoeImg from "../assets/heroShoeImg.png";
 
 export default function Hero(){
     return(
-        <div className="hero_container">
+        <div className="hero_container" id="home">
             <div className="hero_main">
                 <div className="hero_text">
                     <div className="hero_text_content">

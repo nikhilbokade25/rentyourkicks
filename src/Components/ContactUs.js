@@ -57,7 +57,7 @@ import mailIcon from "../assets/mail.svg";
 
 export default function ContactUs() {
     return (
-        <div className="contact_container">
+        <div className="contact_container" id="contact">
             <div className="contact_content">
                 <div className="contact_text">
                     <h1>Have questions, concerns, or just want to say hello? We're here to help!</h1>
