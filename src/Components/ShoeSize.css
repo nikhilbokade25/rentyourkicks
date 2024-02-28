@@ -1,0 +1,29 @@
+.size_container{
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.size_container button{
+    width: 80px;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.size_container button:hover{
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    .size_container{
+        justify-content: space-around;
+    }
+    .size_container button{
+        width: 160px;
+    }
+}

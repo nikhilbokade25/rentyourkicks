@@ -12,6 +12,8 @@ import ShopAdidas from './Components/ShopAdidas';
 import ShopReebok from './Components/ShopReebok';
 import ShopPuma from './Components/ShopPuma';
 import ShopNewBalance from './Components/ShopNewBalance';
+import NikeAirForce from './Components/NikeAirForcePage';
+import NikeAirForcePage from './Components/NikeAirForcePage';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
   {
     path:"/shopNewBalance",
     element: <ShopNewBalance />
+  },
+  {
+    path:"/nikeAirForcePage",
+    element: <NikeAirForcePage />
   }
 
   
