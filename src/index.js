@@ -14,6 +14,7 @@ import ShopPuma from './Components/ShopPuma';
 import ShopNewBalance from './Components/ShopNewBalance';
 import NikeAirForce from './Components/NikeAirForcePage';
 import NikeAirForcePage from './Components/NikeAirForcePage';
+import RentalForm from './Components/RentalForm';
 
 const router = createBrowserRouter([
   {
@@ -55,7 +56,12 @@ const router = createBrowserRouter([
   {
     path:"/nikeAirForcePage",
     element: <NikeAirForcePage />
+  },
+  {
+    path:"/rentalForm",
+    element: <RentalForm />
   }
+
 
   
 ])

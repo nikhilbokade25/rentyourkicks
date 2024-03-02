@@ -1,7 +1,6 @@
 .size_container{
     width: auto;
     height: auto;
-    background-color: lightblue;
     align-items: center;
     display: flex;
     flex-wrap: wrap;

@@ -1,14 +1,12 @@
 .nikeAirForce_container {
     width: 100%;
     height: auto;
-    background-color: lightgreen;
     font-family: "PT Sans",sans-serif;
 }
 
 .nikeAirForce_main {
     width: 90%;
     height: auto;
-    background-color: red;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -19,7 +17,6 @@
 .nike_images {
     width: 60%;
     height: auto;
-    background-color: pink;
     display: flex;
     flex-wrap: wrap;
 }
@@ -28,7 +25,6 @@
     width: calc(50% - 8px);
     height: auto;
     margin: 0 4px;
-    background-color: black;
     margin-bottom: 10px;
 }
 
@@ -41,7 +37,6 @@
 .nike_description {
     width: 30%;
     height: auto;
-    background-color: yellowgreen;
 }
 
 .nike_description p{
@@ -49,7 +44,29 @@
     font-size: 18px;
 }
 
+.nike_description hr{
+    margin-top: 10px;
+}
+
+.nike_size{
+    margin-top: 10px;
+}
+
 .size_container{
+    margin-top: 20px;
+}
+
+.fav_btn{
+    margin-top: 10px;
+}
+
+.rent_btn{
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+
+.rent_btn button{
     margin-top: 20px;
 }
 

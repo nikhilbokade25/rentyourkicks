@@ -5,6 +5,10 @@ import nikeAir2 from "../assets/nikeAir2.jpg";
 import nikeAir3 from "../assets/nikeAir3.jpg";
 import nikeAir4 from "../assets/nikeAir4.jpg";
 import ShoeSize from "./ShoeSize";
+import FavouriteButton from "./FavouriteButton";
+import RentButton from "./RentButton";
+import { Link } from "react-scroll";
+
 
 export default function NikeAirForcePage(){
     return(
@@ -32,9 +36,14 @@ export default function NikeAirForcePage(){
                 <div className="nike_description">
                     <h1>Nike Air Force 1 Low By You</h1>
                     <p>Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.</p>
+                    <hr/>
                     <div className="nike_size">
+                        <h3>Select Size</h3>
                         <ShoeSize />
                     </div>
+
+                    <FavouriteButton />
+                    <RentButton to="/rentalForm"/>
                 </div>
             </div>
         </div>

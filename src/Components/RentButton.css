@@ -1,0 +1,13 @@
+.rent_btn button{
+    width: 100%;
+    padding: 17px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.rent_btn button:hover{
+    cursor: pointer;
+}
+
