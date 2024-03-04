@@ -12,9 +12,11 @@ import ShopAdidas from './Components/ShopAdidas';
 import ShopReebok from './Components/ShopReebok';
 import ShopPuma from './Components/ShopPuma';
 import ShopNewBalance from './Components/ShopNewBalance';
-import NikeAirForce from './Components/NikeAirForcePage';
 import NikeAirForcePage from './Components/NikeAirForcePage';
 import RentalForm from './Components/RentalForm';
+import SneakerCompleteDetails from './Components/SneakerCompleteDetails';
+import SneakerDisplay from './Components/SneakerDisplay';
+import SneakerData, { NIKE_DATA, ADIDAS_DATA, PUMA_DATA, REEBOK_DATA, NEWBALANCE_DATA } from './Components/SneakerData';
 
 const router = createBrowserRouter([
   {
@@ -60,7 +62,16 @@ const router = createBrowserRouter([
   {
     path:"/rentalForm",
     element: <RentalForm />
+  },
+  {
+    path: "/sneaker/:brand/:id",
+    element: <SneakerCompleteDetails sneakersData={{nike: NIKE_DATA, adidas: ADIDAS_DATA, puma: PUMA_DATA, reebok:REEBOK_DATA, newbalance: NEWBALANCE_DATA}}/>
+  },
+  {
+    path: "/sneakers",
+    element: <SneakerDisplay />
   }
+  
 
 
   
@@ -70,6 +81,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <RouterProvider router={router}/>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

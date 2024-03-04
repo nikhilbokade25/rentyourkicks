@@ -6,8 +6,11 @@ import RentSneakers from './Components/RentSneakers';
 import HowItWorks from './Components/HowItWorks';
 import ContactUs from './Components/ContactUs';
 import Footer from './Components/Footer';
-
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SneakerData from './Components/SneakerData';
+import { NIKE_DATA } from './Components/SneakerData';
+import SneakerCompleteDetails from './Components/SneakerCompleteDetails';
+import SneakerDisplay from './Components/SneakerDisplay';
 
 
 function App() {
@@ -22,6 +25,8 @@ function App() {
       <HowItWorks />
       <ContactUs />
       <Footer />
+
+      
     </div>
   );
 }

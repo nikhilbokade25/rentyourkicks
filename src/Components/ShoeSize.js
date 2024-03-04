@@ -12,6 +12,9 @@ export default function ShoeSize(){
             <button>9</button>
             <button>9.5</button>
             <button>10</button>
+            <button>10.5</button>
+            <button>11</button>
+            <button>11.5</button>
         </div>
     );
 }

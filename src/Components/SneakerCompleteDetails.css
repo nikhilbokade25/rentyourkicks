@@ -1,0 +1,73 @@
+.sneaker_description_container{
+    width: 100%;
+    height: auto;
+}
+
+.sneaker_description_main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "PT Sans",sans-serif;
+}
+
+.left_section{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.left_section img {
+    width: 48%; 
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 6px; 
+    margin-bottom: 10px;   
+}
+
+.right_section{
+    width: 39%;
+}
+
+.right_section h2{
+    font-size: 35px;
+}
+
+.right_section p{
+    margin-top: 22px;
+    font-size: 23px;
+}
+
+.right_section h3{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.size_container{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width: 800px){
+    .sneaker_description_main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_section{
+        width: 100%;
+    }
+
+    .left_section img{
+        width: 45%;
+        margin-left: 7px;
+    }
+
+    .right_section{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
