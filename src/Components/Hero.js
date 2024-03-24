@@ -1,6 +1,9 @@
 import "./Hero.css";
 import heroShoeImg from "../assets/heroShoeImg.png";
 
+import { Link as ScrollLink } from 'react-scroll';
+
+
 
 export default function Hero(){
     return(
@@ -12,7 +15,7 @@ export default function Hero(){
                         <h1><span style={{color:"black"}}>Rent</span> your dream sneakers today</h1>
                         <h3>Elevate your style with Your Dream Sneakers: Unbeatable Prices,
                             Endless Styles, Convenient Pick-Up and Beyond.</h3>
-                        <button className="rent_btn">Rent your pair</button>
+                        <button className="rent_btn"><ScrollLink to="rent" smooth={true} duration={500}>Rent your pair</ScrollLink></button>
                     </div>
                     
                 </div>

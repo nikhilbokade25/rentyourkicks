@@ -5,10 +5,7 @@ import shopMenImg from "../assets/shopMan.jpg";
 import { Link } from "react-router-dom";
 
 
-export default function RentSneakers(){
-
-
-    
+export default function RentSneakers(){    
     return(
         
         <div className="rent_container" id="rent">

@@ -102,10 +102,15 @@
 
 .rent_btn{
     border: none;
-    padding: 10px;
+    padding: 12px;
     font-size: 23px;
     font-family: 'PT Sans',sans-serif;
     border-radius: 15px;
+    font-weight: bold;
+}
+
+.rent_btn:hover{
+    cursor: pointer;
 }
 
 .hero_text h1, .hero_text h3, .hero_text button{

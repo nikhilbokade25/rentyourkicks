@@ -12,8 +12,7 @@ export default function Navbar(){
         console.log("nav btn clicked!!!!")
     }
 
-   
-
+    
     return (
         <div className="header">
             <h3>rentyourkicks</h3>
