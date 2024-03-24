@@ -50,6 +50,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.rent_btn{
+    margin-top: -10px;
+}
 @media(max-width: 800px){
     .sneaker_description_main{
         display: flex;

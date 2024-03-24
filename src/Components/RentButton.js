@@ -1,12 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './RentButton.css'; 
 
-const RentButton = ({ to, children }) => {
+const RentButton = ({ sneaker }) => {
+  const navigate = useNavigate();
+
+  const handleRentClick = () => {
+    navigate('/rental-page', { state: { sneaker } });
+  }
+
   return (
-    <Link to={to} className="rent_btn">
-      <button>{children}RENT</button>
-    </Link>
+    <div className='rent_btn'>
+      <button onClick={handleRentClick}>RENT</button>
+    </div>
+    
   );
 };
 

@@ -28,7 +28,7 @@ const SneakerCompleteDetails = ({ sneakersData }) => {
                   <h3>Select Size</h3>
                   <ShoeSize />
                   <FavouriteButton />
-                  <RentButton />
+                  <RentButton sneaker={sneaker}/>
                 </div>
               </>
             ) : (

@@ -135,7 +135,9 @@ export const NIKE_DATA = [
         name: "Nike Air Force 1",
         price: "$15 per day",
         productImages: [nikeAir1, nikeAir2, nikeAir3, nikeAir4],
-        description: "Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you."
+        description: "Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+        cost: 10,
+        shipping: 3
     },
     {
         id:1,
@@ -144,7 +146,9 @@ export const NIKE_DATA = [
         name: "Nike Air Force ",
         price: "$25 per day",
         productImages: [nikeAirForce1,nikeAirForce2,nikeAirForce3,nikeAirForce4],
-        description: "Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you."
+        description: "Shine in satin, stay classic in canvas or get luxe with leather. No matter what you choose, these AF-1s are all about you. 12 colour choices and an additional gum rubber option for the sole mean your design is destined to be one of a kind—just like you.",
+        cost: 7,
+        shipping: 3
     },
     {
         id:2,
@@ -153,7 +157,9 @@ export const NIKE_DATA = [
         name: "Nike Dunk High",
         price: "$10 per day",
         productImages: [nikeDunk1,nikeDunk2,nikeDunk3,nikeDunk4],
-        description: "Take a seat at the table and add your special touch to the hoops-to-streets icon. Inspired by the outdoors, the customisable design lets you be as expressive as you want. Choose between canvas and suede accents for a healthy dose of trail-time flavour. Add classic leather for those on-the-town days. Next, write a piece of your story on the pull tab, which doubles as the perfect spot to attach your kicks to your backpack when it's time to cross streams or hit the beach. Plus, countless colour options let you be as adventurous as you want. Whatever you choose, your influence on the Nike Dunk High is undeniable."
+        description: "Take a seat at the table and add your special touch to the hoops-to-streets icon. Inspired by the outdoors, the customisable design lets you be as expressive as you want. Choose between canvas and suede accents for a healthy dose of trail-time flavour. Add classic leather for those on-the-town days. Next, write a piece of your story on the pull tab, which doubles as the perfect spot to attach your kicks to your backpack when it's time to cross streams or hit the beach. Plus, countless colour options let you be as adventurous as you want. Whatever you choose, your influence on the Nike Dunk High is undeniable.",
+        cost: 8,
+        shipping: 3
     },
     {
         id:3,
@@ -162,7 +168,10 @@ export const NIKE_DATA = [
         name: "Nike Air Huarache",
         price: "$13 per day",
         productImages: [nikeHuarache1,nikeHuarache2,nikeHuarache3,nikeHuarache4],
-        description: "Have you hugged your foot today? Don't stop there. Bring your feel-good vibes to the world with a customisable twist on the ridiculously comfortable icon. Choose soft, supple suede for a throwback vibe, or give it a timeless finish with crisp leather. Select from an array of varsity-inspired colours for a classic look. Then, top it off with a piece of your story on the tongue patch. Whatever you choose, it's gonna feel good and look great. Your personalised Air Huarache—it's bragging rights for your feet. We recommend sizing up one half-size from your usual size for the best fit."
+        description: "Have you hugged your foot today? Don't stop there. Bring your feel-good vibes to the world with a customisable twist on the ridiculously comfortable icon. Choose soft, supple suede for a throwback vibe, or give it a timeless finish with crisp leather. Select from an array of varsity-inspired colours for a classic look. Then, top it off with a piece of your story on the tongue patch. Whatever you choose, it's gonna feel good and look great. Your personalised Air Huarache—it's bragging rights for your feet. We recommend sizing up one half-size from your usual size for the best fit.",
+        cost: 6,
+        shipping: 3,
+        
     }, 
 ]
 
@@ -174,7 +183,9 @@ export const ADIDAS_DATA = [
         name: "Adidas Samba",
         price: "$12 per day",
         productImages: [adidasSamba1,adidasSamba2,adidasSamba3,adidasSamba4],
-        description: "Born on the pitch, the Samba is a timeless icon of street style. This silhouette stays true to its legacy with a tasteful, low-profile, soft leather upper, suede overlays and gum sole, making it a staple in everyone's closet - on and off the pitch."
+        description: "Born on the pitch, the Samba is a timeless icon of street style. This silhouette stays true to its legacy with a tasteful, low-profile, soft leather upper, suede overlays and gum sole, making it a staple in everyone's closet - on and off the pitch.",
+        cost: 11,
+        shipping: 3
     },
     {
         id: 1,
@@ -183,7 +194,9 @@ export const ADIDAS_DATA = [
         name: "Adidas ZG21 Golf Shoe",
         price: "$15 per day",
         productImages: [adidasZG1,adidasZG2,adidasZG3,adidasZG4],
-        description: "Step up to the tee with confidence. The lightweight, low profile of the adidas ZG21 Golf Shoes provides a solid foundation for every drive. A hybrid Lightstrike and BOOST midsole is super light and charges each step with energy. The waterproof upper keeps feet dry through wet conditions. Line up your next shot with the power and stability to split the fairway."
+        description: "Step up to the tee with confidence. The lightweight, low profile of the adidas ZG21 Golf Shoes provides a solid foundation for every drive. A hybrid Lightstrike and BOOST midsole is super light and charges each step with energy. The waterproof upper keeps feet dry through wet conditions. Line up your next shot with the power and stability to split the fairway.",
+        cost: 7,
+        shipping: 3
     },
     {
         id: 2,
@@ -192,7 +205,9 @@ export const ADIDAS_DATA = [
         name: "Adidas Forum Low",
         price: "$20 per day",
         productImages: [adidasForum1,adidasForum2,adidasForum3,adidasForum4],
-        description: "These low-top adidas Forum shoes bring classic basketball style to your everyday wardrobe. Made for movement, they pair tumbled leather with synthetic leather in the upper. A rubber cupsole keeps you steady on your feet. Slip into a bit of nostalgia whenever the mood strikes."
+        description: "These low-top adidas Forum shoes bring classic basketball style to your everyday wardrobe. Made for movement, they pair tumbled leather with synthetic leather in the upper. A rubber cupsole keeps you steady on your feet. Slip into a bit of nostalgia whenever the mood strikes.",
+        cost: 11,
+        shipping: 5
     },
     {
         id: 3,
@@ -201,7 +216,9 @@ export const ADIDAS_DATA = [
         name: "Adidas Youth Superstar",
         price: "$10 per day",
         productImages: [adidasSuperstar1,adidasSuperstar2,adidasSuperstar3,adidasSuperstar4],
-        description: "Since the '70s, adidas Superstar shoes have played a major role in the shaping of our culture. These shoes are vegan and entirely eliminate the use of animal products. And while the look and feel of them honor the past, where they're going is forward. With your help, that is. Someone's got to make them move."
+        description: "Since the '70s, adidas Superstar shoes have played a major role in the shaping of our culture. These shoes are vegan and entirely eliminate the use of animal products. And while the look and feel of them honor the past, where they're going is forward. With your help, that is. Someone's got to make them move.",
+        cost: 9,
+        shipping: 5
     }
 ]
 
@@ -213,7 +230,9 @@ export const REEBOK_DATA = [
         name: "Reebok Club C Revenge White",
         price: "$10 per day",
         productImages: [reebokClub1,reebokClub2,reebokClub3,reebokClub4],
-        description:"OLD-SCHOOL LEATHER REEBOK SHOES WITH NOSTALGIC ACCENTS Turn up the volume on your OG collegiate look. A fresh take on vintage gives these men's Reebok Club C Revenge Shoes a standout look. Retro colorways keep your style legit, and premium details like a supple full grain leather upper and a soft terry lining add a luxe vibe. Color pops hit just right."
+        description:"OLD-SCHOOL LEATHER REEBOK SHOES WITH NOSTALGIC ACCENTS Turn up the volume on your OG collegiate look. A fresh take on vintage gives these men's Reebok Club C Revenge Shoes a standout look. Retro colorways keep your style legit, and premium details like a supple full grain leather upper and a soft terry lining add a luxe vibe. Color pops hit just right.",
+        cost: 9,
+        shipping: 4
     },
     {
         id: 1,
@@ -222,7 +241,9 @@ export const REEBOK_DATA = [
         name: "Reebok Victory G",
         price: "$10 per day",
         productImages: [reebokVictory1,reebokVictory2,reebokVictory3,reebokVictory4],
-        description:"The Victory G is an important shoe in the Reebok lineage. Print ads date it to circa 1982, whereby its unique selling point was the use of a waterproof-breathable GORE-TEX membrane (hence the G in the name). This is particularly significant because the technology had only been introduced to footwear, specifically hiking boots, just two years prior. Therefore, the Reebok Victory G is one of the earliest examples of an athletic sneaker to use GORE-TEX."
+        description:"The Victory G is an important shoe in the Reebok lineage. Print ads date it to circa 1982, whereby its unique selling point was the use of a waterproof-breathable GORE-TEX membrane (hence the G in the name). This is particularly significant because the technology had only been introduced to footwear, specifically hiking boots, just two years prior. Therefore, the Reebok Victory G is one of the earliest examples of an athletic sneaker to use GORE-TEX.",
+        cost: 11,
+        shipping: 4
     },
     {
         id: 2,
@@ -231,7 +252,9 @@ export const REEBOK_DATA = [
         name: "Reebok BB4500",
         price: "$10 per day",
         productImages: [reebokBB1,reebokBB2,reebokBB3,reebokBB4],
-        description: "Inspire your work and gain some work cred with your co-workers with these heritage basketball-inspired styles from Reebok's timeless sneaker designs. Show some respect for your work while showcasing these timeless styles. These designs will keep you protected while bringing an everyday style and class to your job."
+        description: "Inspire your work and gain some work cred with your co-workers with these heritage basketball-inspired styles from Reebok's timeless sneaker designs. Show some respect for your work while showcasing these timeless styles. These designs will keep you protected while bringing an everyday style and class to your job.",
+        cost: 8,
+        shipping: 2
     },
     {
         id: 3,
@@ -240,7 +263,9 @@ export const REEBOK_DATA = [
         name: "Reebok Classic",
         price: "$10 per day",
         productImages: [reebokClassic1,reebokClassic2,reebokClassic3,reebokClassic4],
-        description: "Bring it in for the win. Inspired by the community spirit of the rec centre, these Reebok Classic Leather shoes reflect the multiple sports played together on rec centre courts. Each shoe features a multi-colour design evoking the different team colours found inside the rec."
+        description: "Bring it in for the win. Inspired by the community spirit of the rec centre, these Reebok Classic Leather shoes reflect the multiple sports played together on rec centre courts. Each shoe features a multi-colour design evoking the different team colours found inside the rec.",
+        cost: 10,
+        shipping: 3
     }
     
 ]
@@ -254,7 +279,9 @@ export const PUMA_DATA = [
         name: "Puma Fast Rider",
         price: "$7 per day",
         productImages: [pumaRider1,pumaRider2,pumaRider3,pumaRider4],
-        description: "The Fast Rider is the stuff of PUMA archive legends. Back in the ‘80s, it broke the mold of typical running shoes with its super-light design and aggressive, shock-absorbing outsole. The Fast Runner returns today in all its ‘80s glory with bold colorblocking, lightweight cushioning and a grippy rubber outsole. We just left out the sweatbands and handlebar mustaches."
+        description: "The Fast Rider is the stuff of PUMA archive legends. Back in the ‘80s, it broke the mold of typical running shoes with its super-light design and aggressive, shock-absorbing outsole. The Fast Runner returns today in all its ‘80s glory with bold colorblocking, lightweight cushioning and a grippy rubber outsole. We just left out the sweatbands and handlebar mustaches.",
+        cost: 7,
+        shipping: 3
     },
     {
         id:1,
@@ -263,7 +290,9 @@ export const PUMA_DATA = [
         name: "Puma Fusion Pro",
         price: "$9 per day",
         productImages: [pumaFusion1,pumaFusion2,pumaFusion3,pumaFusion4],
-        description: "The ultimate in performance and style, the Fusion Pro is your go-to for maximum comfort. FUSIONFOAM technology provides unrivaled energy return and cushioning to keep you comfortable all day long. Strategic soles grip the ground even in the deepest rough."
+        description: "The ultimate in performance and style, the Fusion Pro is your go-to for maximum comfort. FUSIONFOAM technology provides unrivaled energy return and cushioning to keep you comfortable all day long. Strategic soles grip the ground even in the deepest rough.",
+        cost: 8,
+        shipping: 6
     },
     {
         id:2,
@@ -272,7 +301,9 @@ export const PUMA_DATA = [
         name: "Puma Ignite Elevate",
         price: "$10 per day",
         productImages: [pumaIgnite1,pumaIgnite2,pumaIgnite3,pumaIgnite4],
-        description: "Puma Ignite Elevate Golf Shoes. Grip the ground no matter the lie in the IGNITE ELEVATE spikeless golf shoe. Built for strength and stability, the ELEVATE boasts PWRFRAME and PWRCAGE technology to follow you throughout your entire swing in effortless comfort."
+        description: "Puma Ignite Elevate Golf Shoes. Grip the ground no matter the lie in the IGNITE ELEVATE spikeless golf shoe. Built for strength and stability, the ELEVATE boasts PWRFRAME and PWRCAGE technology to follow you throughout your entire swing in effortless comfort.",
+        cost: 10,
+        shipping: 6
     },
     {
         id:3,
@@ -281,7 +312,9 @@ export const PUMA_DATA = [
         name: "Puma Rider",
         price: "$11 per day",
         productImages: [pumaRide1,pumaRide2,pumaRide3,pumaRide4],
-        description: "The innovative materials and progressive design of the IGNITE Fasten8 provide the performance you need on the course and the style you need while off it."
+        description: "The innovative materials and progressive design of the IGNITE Fasten8 provide the performance you need on the course and the style you need while off it.",
+        cost: 10,
+        shipping: 3
     }
 
 ]
@@ -294,7 +327,9 @@ export const NEWBALANCE_DATA = [
         name: "New Balance ML57483",
         price: "$10 per day",
         productImages: [newBalanceM1,newBalanceM2,newBalanceM3,newBalanceM4],
-        description:"First introduced in 1988, the New Balance 574 trainers fashion as sporty aesthetic with retro nuances. Defined by rubber waves at the heel, this black and grey edit is designed with suede and mesh panels alongside the signature N logo. The lightweight silhouette is cushioned with a spongy EVA midsole."
+        description:"First introduced in 1988, the New Balance 574 trainers fashion as sporty aesthetic with retro nuances. Defined by rubber waves at the heel, this black and grey edit is designed with suede and mesh panels alongside the signature N logo. The lightweight silhouette is cushioned with a spongy EVA midsole.",
+        cost: 9,
+        shipping: 4
     },
     {
         id:1,
@@ -303,7 +338,9 @@ export const NEWBALANCE_DATA = [
         name: "New Balance ML57V9483",
         price: "$11 per day",
         productImages: [newBalance51,newBalance52,newBalance53,newBalance54],
-        description: "‘The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone."
+        description: "‘The most New Balance shoe ever’ says it all, right? No, actually. The 574 might be our unlikeliest icon. The 574 was built to be a reliable shoe that could do a lot of different things well rather than as a platform for revolutionary technology, or as a premium materials showcase. This unassuming, unpretentious versatility is exactly what launched the 574 into the ranks of all-time greats. As hybrid road/trail design built on a wider last than the previous generation’s narrow racing silhouettes, the 574 offered a uniquely versatile mix of new, different, uncomplicated, rugged, durable, and comfortable that was adopted as a closet staple across the globe. That’s why today, the 574 is synonymous with the boundary defying New Balance style, and worn by anyone.",
+        cost: 11,
+        shipping: 3
     },
     {
         id:2,
@@ -312,7 +349,9 @@ export const NEWBALANCE_DATA = [
         name: "New Balance 997 SL",
         price: "$13 per day",
         productImages: [newBalance91,newBalance92,newBalance93,newBalance94],
-        description: "The 997H sneaker is a retro-inspired men's kick that will instantly upgrade your everyday look. Made with lightweight and durable cushioning along with a fashionable leather upper, this shoe delivers all-day comfort to go along with its classic style."
+        description: "The 997H sneaker is a retro-inspired men's kick that will instantly upgrade your everyday look. Made with lightweight and durable cushioning along with a fashionable leather upper, this shoe delivers all-day comfort to go along with its classic style.",
+        cost: 5,
+        shipping: 5
     },
     {
         id:3,
@@ -321,7 +360,9 @@ export const NEWBALANCE_DATA = [
         name: "New Balance Raincloud",
         price: "$9 per day",
         productImages: [newBalance9061,newBalance9062,newBalance9063,newBalance9064],
-        description: "The 9060 is a new expression of the refined style and innovation-led design that have made the 99X series home to some of the most iconic models in New Balance history. The 9060 reinterprets familiar elements sourced from classic 99X models with a warped sensibility inspired by the proudly futuristic, visible tech aesthetic of the Y2K era. Sway bars, taken from the 990, are expanded and utilized throughout the entire upper for a sense of visible motion, while wavy lines and scaled up proportions on a sculpted pod midsole place an exaggerated emphasis on the familiar cushioning platforms of ABZORB and SBS."
+        description: "The 9060 is a new expression of the refined style and innovation-led design that have made the 99X series home to some of the most iconic models in New Balance history. The 9060 reinterprets familiar elements sourced from classic 99X models with a warped sensibility inspired by the proudly futuristic, visible tech aesthetic of the Y2K era. Sway bars, taken from the 990, are expanded and utilized throughout the entire upper for a sense of visible motion, while wavy lines and scaled up proportions on a sculpted pod midsole place an exaggerated emphasis on the familiar cushioning platforms of ABZORB and SBS.",
+        cost: 10,
+        shipping: 6
     }
 ]
 

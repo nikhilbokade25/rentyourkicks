@@ -1,13 +1,26 @@
-import "./RentalForm.css";
+import { useLocation } from "react-router-dom";
+import "./RentalPage.css";
 
-export default function RentalForm(){
-    return(
-       <div className="rental_form_container">
+export default function RentalPage(){
+    const location = useLocation();
+  const sneaker = location.state?.sneaker;
+
+  if (!sneaker) {
+    return (
+      <div>
+        <h1>No sneaker information found</h1>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <div className="rental_form_container">
             <div className="rental_form_main">
                 <div className="rental_form_group">
                     
                     <div className="rent_form">
-                        <h3>Rental Period</h3>
+                        <h2>Rental Period</h2>
                         <form>
 
                         <div class="date-container">
@@ -69,7 +82,7 @@ export default function RentalForm(){
                             <input type="phone" placeholder="Phone" required />
                         </div>
 
-                        <button>Continue to Shipping</button>
+                        <button>Go To Checkout</button>
                         </form>
                     </div>
                 </div>
@@ -79,34 +92,30 @@ export default function RentalForm(){
                 <div className="rental_pricing">
                     <div className="rental_details">
                         <div className="rental_sneaker_details">
-                            <div className="rental_image">
-
-                            </div>
-
                             <div className="rental_name">
-                                <p>Nike Air Force</p>
+                                <h2>{sneaker.name}</h2>
                             </div>
                         </div>
 
                         <div className="sneaker_rental_pricing">
                             <div className="subtotal">
                                 <p className="price_heading">Subtotal</p>
-                                <p>$20</p>
+                                <p>${sneaker.cost}</p>
                             </div>
 
                             <div className="shipping">
                                 <p className="price_heading">Shipping & Handling</p>
-                                <p>$10</p>
+                                <p>${sneaker.shipping}</p>
                             </div>
 
                             <div className="taxes">
                                 <p className="price_heading">Taxes</p>
-                                <p>$5</p>
+                                <p>${sneaker.cost * 0.13}</p>
                             </div>
 
                             <div className="total">
                                 <p className="price_heading total_heading">Total</p>
-                                <p className="total_heading">$35</p>
+                                <p className="total_heading">${sneaker.cost + sneaker.cost * 0.13 + sneaker.shipping}</p>
                             </div>
                         </div>
                     </div>
@@ -114,5 +123,9 @@ export default function RentalForm(){
                 </div>
             </div>
        </div>
-    );
-}
+      
+    </div>
+  );
+};
+
+
